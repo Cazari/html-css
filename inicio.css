@@ -1,0 +1,203 @@
+body{
+    padding: 15px;
+    margin: 0 auto;
+    max-width: 1200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: rgb(34, 34, 34)
+    
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+span{
+    color: #F57C00;
+    
+}
+
+#title {
+    text-align: center;
+    flex-direction: column;
+    line-height:10px;
+  }
+  
+  #header h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  #header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #header nav ul li {
+    margin: 0 10px;
+  }
+  
+  #header nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+  }
+  .imagem1 {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    transform: translateX(px);
+    
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+  a{
+    color: aliceblue;
+    
+}
+a:hover {
+    color: rgb(199, 100, 7);
+    transition: 0.3s all;}
+
+  
+  /* Estilo para o banner do site */
+  #banner {
+    margin: 12px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 50px;
+    border-style:none
+    
+    
+  }
+  
+  #banner h2 {
+    font-size: 48px;
+    margin: 0;
+    padding-bottom: 20px;
+  }
+  
+  #banner p {
+    font-size: 18px;
+    margin: 0;
+    padding-bottom: 40px;
+  }
+  
+  #banner a {
+    background-color: #ffffff;
+    color: #dd7208;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration:none;
+    font-weight: bold;
+    display: inline-block;
+    margin: 20px;
+  }
+
+  #foot {
+    color: #dd7208;
+    padding: 10px 10px;
+    border-radius: 5px;
+    text-decoration:solid
+   
+
+  }
+  
+  /* Estilo para a seção de serviços */
+  #servicos {
+    background-color: #222;
+    padding: 80px;
+    text-align: center;
+  }
+  
+  #servicos h3 {
+    font-size: 36px;
+    margin: 0;
+    padding-bottom: 40px;
+  }
+  
+  .servico {
+    background-color: #444;
+    padding: 20px;
+    margin-bottom: 30px;
+    text-align: left;
+  }
+  
+  .servico h4 {
+    color: #d16e0b;
+    font-size: 24px;
+    margin: 0;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  
+  .servico p {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  /* Estilo para a seção "Sobre Nós" */
+  #sobre {
+    background-color: #000000;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #sobre h3 {
+    font-size: 36px;
+    margin: 0;
+    padding-bottom: 40px;
+  }
+  
+  #sobre p {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  /* Estilo para a seção de contato */
+  #contato {
+    background-color: #222;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  #contato h3 {
+    font-size: 36px;
+    margin: 0;
+    padding-bottom: 40px;
+  }
+  
+  #contato form label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  #contato form input,
+  #contato form textarea {
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    background-color: #444;
+    color: #FFF;
+  }
+
+    
+  }
+  #contato form textarea {
+    height: 
+  
